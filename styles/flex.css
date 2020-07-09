@@ -1,14 +1,11 @@
 .parent {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   height: 50vh;
 }
 
 .child {
-  width: 200px;
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
